@@ -28,12 +28,11 @@ header nav .nav2 .link a:hover{
     header nav .nav2{
         display: block;
         position: absolute;
-        width: 60%;
-        top: 20px;
-        right: -20px;
+        width: 40%;
+        top: 0;
+        right: 0;
         height: 8vh;
-        justify-content: right;
-        padding: 3px;
+        padding: 0;
         background: transparent;
         transition: 0.8s;
         border-radius: 20px 0 0 0;

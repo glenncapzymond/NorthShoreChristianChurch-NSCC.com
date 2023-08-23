@@ -27,7 +27,7 @@ header nav .nav2{
     display: flex;
     position: absolute;
     width: 70%;
-    right: -50px;
+    right: -15%;
     justify-content: space-around;
     padding: 23px;
 }

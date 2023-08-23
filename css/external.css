@@ -5,7 +5,7 @@ header nav .nav2{
     width: 15%;
     right: 0;
     justify-content: space-around;
-    padding: 23px 20px;
+    padding: 23px;
 }
 header nav .nav2 .link{
     display: block;
@@ -29,7 +29,7 @@ header nav .nav2 .link a:hover{
         display: block;
         position: absolute;
         width: 60%;
-        top: 0;
+        top: 20px;
         right: -20px;
         height: 8vh;
         justify-content: right;

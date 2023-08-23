@@ -1,0 +1,117 @@
+/*church anniversary page*/
+header nav .nav2{
+    display: flex;
+    position: absolute;
+    width: 15%;
+    right: 0;
+    justify-content: space-around;
+    padding: 23px;
+}
+header nav .nav2 .link{
+    display: block;
+    list-style: none;
+    position: relative;
+}
+header nav .nav2 .link a{
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+}
+header nav .nav2 .link a:hover{
+    color: yellow;
+    transition: 0.3s;
+}
+
+/*mscc fam*/
+.hello{
+    background: rgb(19, 44, 112);
+}
+.container{
+    width: 100%;
+    height: 100vh;
+}
+.container .content{
+    width: 100%;
+    text-align: center;
+    padding: 90px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.container .txt{
+    width: 100%;
+    background: #000;
+}
+.container .content img{
+    height: 500px;
+}
+
+@media(max-width:480px) and (min-width:220px){
+    header nav .nav2{
+        display: block;
+        position: absolute;
+        width: 60%;
+        top: 0;
+        right: -20px;
+        height: 8vh;
+        justify-content: right;
+        padding: 3px;
+        background: transparent;
+        transition: 0.8s;
+    }
+    header nav .nav2 .link a{
+        font-size: 15px;
+    }
+}
+
+/*tablet*/
+@media(max-width:768px) and (min-width:480px){
+    header nav .nav2{
+        display: block;
+        position: absolute;
+        width: 40%;
+        top: 0;
+        right: 0;
+        height: 8vh;
+        padding: 0;
+        background: transparent;
+        transition: 0.8s;
+    }
+    header nav .nav2 .link a{
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width:1068px) and (min-width:768px){
+    header nav .nav2{
+        display: block;
+        position: absolute;
+        width: 30%;
+        top: 0;
+        right: 0;
+        height: 8vh;
+        padding: 25px;
+        background: transparent;
+        transition: 0.8s;
+    }
+    header nav .nav2 .link a{
+        font-size: 15px;
+    }
+}
+
+/*desktop*/
+@media screen and (max-width:1460px) and (min-width:1068px){
+    header nav .nav2{
+        display: block;
+        position: absolute;
+        width: 20%;
+        top: 0;
+        right: 0;
+        height: 8vh;
+        padding: 25px;
+        background:transparent;
+        transition: 0.8s;
+    }
+    header nav .nav2 .link a{
+        font-size: 15px;
+    }
+}

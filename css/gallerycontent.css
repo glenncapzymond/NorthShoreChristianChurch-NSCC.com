@@ -1,0 +1,39 @@
+/*section 3 gallery outdoorpage*/
+.gallery-outdoor{
+    background: rgba(13, 84, 123, 0.845);
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+}
+
+.gallery-outdoor .container{
+    height: 100vh;
+    width: 100%;
+    position: relative;
+}
+.gallery-outdoor .container .con{
+    display: flex;
+    grid-template-columns: repeat(4,1fr);
+    width: 100%;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.gallery-outdoor .container .con .content{
+    padding: 30px;
+}
+.gallery-outdoor .container .con .content .pic{
+    height: 200px;
+    width: 300px;
+    border-radius: 10px;
+}
+
+.gallery-outdoor3 .container .txt{
+    text-align: center;
+    width: 100%;
+}
+.gallery-outdoor .container .txt h1{
+    color: rgb(0, 0, 0);
+    font-size: 60px;
+    text-align: center;
+    -webkit-text-stroke: 1px white;
+}
